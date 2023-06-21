@@ -21,7 +21,7 @@ function enviar(){
 // Pegar botão
 var mybutton = document.getElementById("myBtn");
 
-// Quando rolar a página 20px do topo para baixo, o botão será exibido
+// Quando rolar a página 800px do topo para baixo, o botão será exibido
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
