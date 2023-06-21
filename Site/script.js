@@ -1,5 +1,7 @@
 // Funfa :)
 
+// Código para login:
+
 function enviar(){
 
     let senha = document.getElementById('exampleInputPassword1').value
@@ -12,4 +14,26 @@ function enviar(){
         document.getElementById('resposta').innerText = 'E-mail ou senha incorretos'
     }
 
+}
+
+// Botão do scroll-top:
+
+// Pegar botão
+var mybutton = document.getElementById("myBtn");
+
+// Quando rolar a página 20px do topo para baixo, o botão será exibido
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Quando clicar no botão, a página rola para o topo do documento
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
